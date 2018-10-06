@@ -1,0 +1,462 @@
+/*
+Author: Mahady Hasan Polash
+Author-info
+
+
+*/
+
+
+
+/*
+==========index========
+1. Global CSS
+2. Header
+3. Hero-Banner
+4. About
+5. Practice
+6. Lawyers
+7. Publications
+8. FAQ
+9. Contact
+10.Footer
+*/
+
+
+/* 1. Global CSS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Playfair+Display+SC:400,700,900');
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #111111;
+
+}
+h1{
+	font-family: 'Playfair Display SC', serif;
+	font-size: 36px;
+
+
+}
+h2{
+	font-family: 'Playfair Display SC', serif;
+	font-size: 30px;
+
+}
+h3{
+	font-family: 'Playfair Display SC', serif;
+
+}
+h4{
+	font-family: 'Playfair Display SC', serif;
+
+}
+h5{
+	font-family: 'Playfair Display SC', serif;
+
+}
+h6{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #111111;
+	line-height: 25px;
+
+}
+a{
+	color: #111111;
+
+}
+a:hover{
+	color: #e8bf5d;
+	text-decoration: none;
+
+}
+.img-center{
+	display: block;
+	margin: 0 auto;
+}
+
+.img-right{
+	float: right;
+	display: block;
+
+}
+
+section{
+	padding: 80px 0px;
+}
+.section-heading-border{
+	border-left: 2px solid #e8bf5d; 
+	padding: 0px 20px;
+}
+
+/* 2. Header Section */
+
+.logo {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    color: #111111;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 900;
+}
+.logo:hover{
+	color:#111111;
+}
+
+.logo span{
+	color: #e8bf5d;
+	font-weight: 1500;
+}
+.navbar{
+	background-color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #111111;
+}
+
+.navbar-nav .nav-link {
+    color: #111111;
+    text-transform: uppercase;
+}
+
+.nav-item{
+	margin-left: 15px;
+
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, 
+.navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link.show, 
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #111111;
+    border-bottom: 3px solid #e8bf5d;
+}
+
+.navbar-dark .navbar-nav 
+.nav-link:focus, .navbar-dark 
+.navbar-nav .nav-link:hover {
+    color: #111111;
+    border-bottom: 3px solid #e8bf5d;
+}
+
+/* 3. Hero-Banner Section */
+
+.hero{
+	background: url(../img/banner.png) no-repeat;
+	background-size: 100%;
+}
+
+.hero-content{
+	padding-top: 450px;
+}
+
+.hero-info{
+	border-left: 2px solid #e8bf5d;
+	padding: 0px 20px;
+
+}
+.hero-info h1{
+	color: #fff;
+	letter-spacing: 3px;
+}
+.hero-info h6{
+	color: #fff;
+	letter-spacing: 3px;
+}
+.btn-theme {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    background: #e8bf5d;
+    border-radius: 50px;
+    padding: 7px 25px;
+    box-shadow: none;
+}
+
+.btn-theme:hover{
+	background-color: #111111;
+	color: #fff;
+	cursor: pointer;
+	box-shadow: none;
+}
+
+/* 4. About Section */
+.about .section-heading-img {
+    background: url(../img/about-banner.png) no-repeat;
+    padding: 40px 0px;
+    
+    }
+
+.about h6{
+	width:75%;
+	line-height: 28px;
+	color: grey;
+
+}
+
+.about-content{
+	padding-top: 50px;
+}
+
+/* 5. Practice Area Section */
+.practice{
+	background-color: #111111;
+}
+.practice h2{
+	color: #fff;
+}
+.practice h6{
+	width:75%;
+	line-height: 28px;
+	color: #fff;
+}
+
+.practice .section-heading-img {
+    background: url(../img/practise-img.png) no-repeat;
+    padding: 40px 0px;
+}
+
+
+.practice-desc h3{
+	color: #fff;
+
+}
+.practice-desc p{
+	color: #fff;
+	padding-bottom: 50px;
+}
+
+/* 5. Lawyers Section */
+
+.lawyers h6{
+	width:75%;
+	line-height: 28px;
+	
+}
+
+.lawyers .section-heading-img {
+    background: url(../img/lawyers-banner.png) no-repeat;
+    padding: 40px 0px;
+}
+
+.team-info h6 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.team-info p {
+    color: #666666;
+    font-size: 16px;
+}
+
+
+.team-member img{
+	width: 100%;
+}
+
+
+
+/* Our Clients Section*/
+.clients{
+	background: url(../img/clients-bg-img.png);
+	background-attachment: fixed;
+}
+
+.clients h2{
+	color: #fff;
+}
+.clients h6{
+	width:75%;
+	line-height: 28px;
+	color: #fff;
+}
+
+.clients .section-heading-img {
+    background: url(../img/clients-img.png) no-repeat;
+    padding: 40px 0px;
+}
+
+.clints-profile{
+	width: 100%;
+}
+
+.clients h5{
+	color: #fff;
+
+}
+
+.clients p{
+	color: #fff;
+
+}
+
+.padding{
+	padding-top: 50px;
+}
+
+.clients-symbol{
+	    margin-left: 140px;
+    	margin-top: 20px;
+}
+
+.text-padding{
+	margin-top: 28px;
+}
+
+/* 5. Publication Section*/
+
+.publications .section-heading-img {
+    background: url(../img/publication05-img.png) no-repeat;
+    padding: 40px 0px;
+
+}
+
+.publications img{
+	width: 100%;
+}
+
+
+.publication-title h5{
+	font-size: 16px;
+    font-weight: 600;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+
+.publication-title span{
+	font-style: italic;
+    font-weight: 300;
+    color: #666666;
+}
+
+.publication-date p{
+	padding-top: 48px;
+    font-style: italic;
+    color: #666666;
+}
+.link-msg a{
+	font-weight: 600;
+}
+
+.border{
+	border-bottom: 2px solid #e8bf5d !important;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+
+/* FAQ Section */
+.faq{
+	background: #111111;
+}
+
+.faq .section-heading-img {
+    background: url(../img/faq-06-img.jpg) no-repeat;
+    padding: 40px 0px;
+}
+
+.faq h2 {
+    font-weight: 500;
+    color: #fff;
+}
+
+.faq h6 {
+    width: 60%;
+    color: #fff;
+    line-height: 28px;
+}
+
+
+
+
+.faq-left {
+    margin-top: 26px;
+}
+
+.faq-border {
+    border-bottom: 2px solid #e8bf5d;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.faq-left p {
+    color: #fff;
+    margin-bottom: 8px;
+   
+}
+
+
+.faq-left .fa-minus {
+    color: #fff;
+    float: right;
+    margin-top: 12px;
+}
+.faq-left .fa-plus {
+    color: #fff;
+    float: right;
+    margin-top: 12px;
+}
+
+.faq-right{
+	background-color: #e8bf5d;
+    border-radius: 10px;
+    margin-top: 26px;
+}
+
+.faq-right p {
+    padding: 33px;
+    line-height: 39px;
+    font-weight: 600;
+}
+
+
+/* 7. Contact Section */
+.contact .section-heading-img {
+    background: url(../img/Contact-07-img.png) no-repeat;
+    padding: 40px 0px;
+}
+
+.pading-row{
+	padding-top: 50px;
+}
+
+.shadow{
+	    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+
+.send {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    background: #e8bf5d;
+    border-radius: 50px;
+    box-shadow: none;
+}
+
+
+/* Footer Section */
